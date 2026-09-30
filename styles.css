@@ -26,6 +26,7 @@ nav a:hover { text-decoration: none; }
 nav a:hover::after, nav a:focus-visible::after, .wordmark:hover::after, .wordmark:focus-visible::after { transform: scaleX(1); }
 .page { display: grid; grid-template-columns: 260px minmax(0, 1fr); column-gap: 80px; max-width: 1080px; margin: 0 auto; padding: 68px 0 0; }
 .profile { position: sticky; top: 3rem; align-self: start; text-align: center; padding: 0 .75rem; }
+.profile-animation { display: block; width: 176px; max-width: 100%; height: auto; margin: 0 auto 1.25rem; image-rendering: pixelated; }
 .profile h1 { font-size: 2rem; line-height: 1.25; letter-spacing: -.045em; font-weight: 600; }
 .preferred-name { color: var(--muted); margin-top: .4rem; font-size: .9375rem; }
 .profile-role { margin-top: 1.6rem; font-size: .9375rem; line-height: 1.7; }
